@@ -1,8 +1,24 @@
-# 3D_Viewer
+# 3D_Viewer - With interface for MacOS
+
 ## Install
 1. `make install`
 2. `make gcov_report` - start unit_test
 
+## Unistall
+1. make `uninstall`
+2. make `clean`
+---
 ## Description
-In this project, my team and I rendered an .obj file using the C programming language and the QR Creator framework.
-The program has the ability to scale, draw points and lines in any color of your choice, as well as rotate an object using matrix rotation and affine transformations.
+В данном проекте мы с командой реализовывали отрисовку 3д объектов в формате `*.obj`.
+В программе имеется функционал:
+- отрисовка 3d обьектов
+![painting3Dobject](./Screenshot/PaintObject.png)
+-  Создание и сохнарение Gif файлов
+![saveGif](./Screenshot/SaveGif.png)
+- изменение толщины, формы и цвета у точек соедений линий и самих линий
+- изменение цвета заднего фона
+- реалзованы афинные преоброзования(поворот объекта)
+- прямая и парарельная проекция
+- перемещение объекта
+- подсчет количества точек и количества связей
+- при закрытий приложения можно сохранить установленные параметры 

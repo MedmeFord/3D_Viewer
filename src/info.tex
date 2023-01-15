@@ -1,0 +1,36 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+
+\title{s21\_3dviewer\_docs}
+\author{Charisho Marylpor}
+\date{October 2022}
+
+\begin{document}
+
+\maketitle
+
+\section*{About s21\_3dviewer}
+
+The 3dviewer application opens, reads and showes .obj files with 3d-models, but only points and lines.
+
+\begin{enumerate}
+    \item Open .obj files.
+    \item Rotate yours 3d model, change scale and position in window.
+    \item Save screenshots in BMP or JPEG format.
+    \item Make GIF file with your 3d-model.
+\end{enumerate}
+
+\section*{How does it work?}
+
+For begin just use makefile commands:
+
+\begin{enumerate}
+    \item make all or install - will install smartcalc.app in dir ../application.
+    \item make uninstall - will delete smartcalc.app and his folder.
+    \item make test - will start unit tests.
+    \item make gcov\_report - will start unit tests with coverage report.
+    \item make check - will start unit tests and check style and memory leaks.
+    \item make dvi - generate document info.pdf and info.dvi.
+\end{enumerate}
+
+\end{document}
